@@ -8,7 +8,7 @@
 
         base {
             bindings = <
-&lt 4 ESC  &kp Q  &kp W  &kp F       &kp P           &kp G                 &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
+&lt 4 ESC  &kp Q  &kp W  &kp F       &kp P           &lt 5 G               &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A  &kp R  &mt LCMD S  &mt LEFT_ALT T  &mt LEFT_CONTROL D    &mt RIGHT_CONTROL H  &mt RIGHT_ALT N  &mt RIGHT_GUI E  &kp I    &kp O     &kp RET
 &kp LSHFT  &kp Z  &kp X  &kp C       &kp V           &kp B                 &kp K                &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp SQT
                          &mo 3       &mo 2           &mo 1                 &kp RIGHT_SHIFT      &kp SPACE        &kp GRAVE
@@ -48,6 +48,15 @@
 &trans  &trans          &trans      &trans  &trans  &trans    &trans  &kp C_VOL_UP   &kp C_VOL_DN  &trans  &trans  &trans
 &trans  &trans          &trans      &trans  &trans  &trans    &trans  &kp K_MUTE     &trans        &trans  &trans  &trans
                                     &trans  &trans  &trans    &trans  &kp LS(LG(A))  &trans
+            >;
+        };
+
+        function {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
