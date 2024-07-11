@@ -27,10 +27,10 @@
 
         cursors {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &trans          &kp UP_ARROW  &trans     &kp DELETE
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_DOWN  &trans          &trans        &trans     &trans
-                        &trans  &trans  &trans    &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans         &trans          &kp UP_ARROW  &trans     &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp END   &kp PAGE_DOWN  &trans          &trans        &trans     &trans
+                        &trans  &trans  &trans    &trans    &trans         &trans
             >;
         };
 
