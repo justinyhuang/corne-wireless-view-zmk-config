@@ -4,12 +4,12 @@
 
 &lt {
     quick-tap-ms = <200>;
-    tapping-term-ms = <500>;
+    tapping-term-ms = <350>;
 };
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <500>;
+    tapping-term-ms = <350>;
 };
 
 / {
