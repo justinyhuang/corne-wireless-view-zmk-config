@@ -21,7 +21,7 @@
 &lt 4 ESC  &kp Q  &kp W  &kp F       &kp P           &lt 5 G               &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A  &kp R  &mt LCMD S  &mt LEFT_ALT T  &mt LEFT_CONTROL D    &mt RIGHT_CONTROL H  &mt RIGHT_ALT N  &mt RIGHT_GUI E  &kp I    &kp O     &kp RET
 &kp LSHFT  &kp Z  &kp X  &kp C       &kp V           &kp B                 &kp K                &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp SQT
-                         &mo 3       &mo 2           &lt 1 GRAVE           &kp ESC              &kp SPACE        &kp RIGHT_SHIFT
+                         &mo 3       &mo 2           &lt 1 GRAVE           &kp SPACE            &kp RIGHT_SHIFT  &kp GLOBE
             >;
         };
 
