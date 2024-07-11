@@ -30,19 +30,19 @@
 
         numbers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans             &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET   &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACKET  &kp N1  &kp N2  &kp N3  &trans  &trans
-                        &trans  &trans  &trans    &kp EQUAL          &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans             &kp N7     &kp N8     &kp N9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET   &kp N4     &kp N5     &kp N6  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACKET  &kp N1     &kp N2     &kp N3  &trans  &trans
+                        &trans  &trans  &trans    &kp EQUAL          &kp MINUS  &kp GRAVE
             >;
         };
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans        &kp LS(AMPS)    &kp LS(STAR)   &kp LS(LPAR)   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LBRC)  &kp LS(DOLLAR)  &kp LS(PRCNT)  &kp LS(CARET)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(RBRC)  &kp LS(EXCL)    &kp LS(AT)     &kp LS(POUND)  &trans  &trans
-                        &trans  &trans  &trans    &trans        &kp LS(RPAR)    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp AMPS    &kp ASTERISK  &kp LEFT_PARENTHESIS  &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE  &kp DOLLAR  &kp PERCENT   &kp CARET             &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE  &kp EXCL    &kp AT        &kp HASH              &trans                 &trans
+                        &trans  &trans  &trans    &trans          &kp UNDER   &kp TILDE
             >;
         };
 
