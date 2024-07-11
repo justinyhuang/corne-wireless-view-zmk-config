@@ -45,10 +45,10 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp AMPS    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE  &kp DOLLAR  &kp PERCENT   &kp CARET             &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE  &kp EXCL    &kp AT        &kp HASH              &trans                 &trans
-                        &trans  &trans  &trans    &trans          &kp UNDER   &kp TILDE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &kp AMPS    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE   &kp DOLLAR  &kp PERCENT   &kp CARET             &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACE  &kp EXCL    &kp AT        &kp HASH              &trans                 &trans
+                        &trans  &trans  &trans    &trans           &kp UNDER   &kp TILDE
             >;
         };
 
