@@ -18,7 +18,7 @@
 &lt 4 ESC      &kp Q  &kp W  &kp F       &kp P           &lt 5 G               &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
 &mt LCTRL TAB  &kp A  &kp R  &mt LCMD S  &mt LEFT_ALT T  &mt LEFT_CONTROL D    &mt RIGHT_CONTROL H  &mt RIGHT_ALT N  &mt RIGHT_GUI E  &kp I    &kp O     &kp RET
 &kp LSHFT      &kp Z  &kp X  &kp C       &kp V           &kp B                 &kp K                &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp SQT
-                             &mo 3       &mo 2           &lt 1 GRAVE           &kp SPACE            &kp RIGHT_SHIFT  &kp CAPS
+                             &mo 3       &lt 2 GRAVE     &lt 1 ESCAPE          &kp SPACE            &kp RIGHT_SHIFT  &kp ESCAPE
             >;
         };
 
@@ -51,7 +51,7 @@
 
         MultiMedia {
             bindings = <
-&trans  &bt BT_CLR_ALL  &bt BT_NXT  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &trans
+&trans  &bt BT_CLR_ALL  &bt BT_NXT  &trans  &trans  &trans    &trans  &trans             &trans           &trans  &trans  &none
 &trans  &trans          &trans      &trans  &trans  &trans    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans
 &trans  &trans          &trans      &trans  &trans  &trans    &trans  &kp K_MUTE         &trans           &trans  &trans  &trans
                                     &trans  &trans  &trans    &trans  &kp LS(LG(A))      &trans
@@ -60,7 +60,7 @@
 
         function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
