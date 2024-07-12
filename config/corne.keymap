@@ -15,10 +15,10 @@
 
         base {
             bindings = <
-&lt 4 ESC  &kp Q  &kp W  &kp F       &kp P           &lt 5 G               &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
-&kp TAB    &kp A  &kp R  &mt LCMD S  &mt LEFT_ALT T  &mt LEFT_CONTROL D    &mt RIGHT_CONTROL H  &mt RIGHT_ALT N  &mt RIGHT_GUI E  &kp I    &kp O     &kp RET
-&kp LSHFT  &kp Z  &kp X  &kp C       &kp V           &kp B                 &kp K                &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp SQT
-                         &mo 3       &mo 2           &lt 1 GRAVE           &kp SPACE            &kp RIGHT_SHIFT  &kp GLOBE
+&lt 4 ESC      &kp Q  &kp W  &kp F       &kp P           &lt 5 G               &kp J                &kp L            &kp U            &kp Y    &kp SEMI  &kp BSPC
+&mt LCTRL TAB  &kp A  &kp R  &mt LCMD S  &mt LEFT_ALT T  &mt LEFT_CONTROL D    &mt RIGHT_CONTROL H  &mt RIGHT_ALT N  &mt RIGHT_GUI E  &kp I    &kp O     &kp RET
+&kp LSHFT      &kp Z  &kp X  &kp C       &kp V           &kp B                 &kp K                &kp M            &kp COMMA        &kp DOT  &kp FSLH  &kp SQT
+                             &mo 3       &mo 2           &lt 1 GRAVE           &kp SPACE            &kp RIGHT_SHIFT  &kp CAPS
             >;
         };
 
@@ -33,9 +33,9 @@
 
         numbers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans             &kp N7     &kp N8     &kp N9  &kp N0  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET   &kp N4     &kp N5     &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACKET  &kp N1     &kp N2     &kp N3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans             &kp N7     &kp N8     &kp N9  &kp N0         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACKET   &kp N4     &kp N5     &kp N6  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACKET  &kp N1     &kp N2     &kp N3  &kp BACKSLASH  &trans
                         &trans  &trans  &trans    &kp EQUAL          &kp MINUS  &kp GRAVE
             >;
         };
@@ -44,8 +44,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans           &kp AMPS    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_BRACE   &kp DOLLAR  &kp PERCENT   &kp CARET             &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACE  &kp EXCL    &kp AT        &kp HASH              &trans                 &trans
-                        &trans  &trans  &trans    &trans           &kp UNDER   &kp TILDE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp RIGHT_BRACE  &kp EXCL    &kp AT        &kp HASH              &kp PIPE               &trans
+                        &trans  &trans  &trans    &kp PLUS         &kp UNDER   &kp TILDE
             >;
         };
 
