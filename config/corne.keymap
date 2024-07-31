@@ -42,15 +42,39 @@
         };
     };
 
+    behaviors {
+        left_mt: left_mt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LEFT_MT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <350>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <18 19 20 21 22>;
+        };
+
+        right_mt: right_mt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "RIGHT_MT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <350>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <13 14 15 16 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             bindings = <
-&lt 4 ESC      &kp Q  &kp W               &kp F           &kp P        &kp G           &kp J      &kp L            &kp U            &kp Y            &kp SEMI  &kp BSPC
-&mt LCTRL TAB  &kp A  &mt LEFT_COMMAND R  &mt LEFT_ALT S  &mt LCTRL T  &kp D           &kp H      &mt RCTRL N      &mt RIGHT_ALT E  &mt RIGHT_GUI I  &kp O     &kp RET
-&kp LSHFT      &kp Z  &kp X               &kp C           &kp V        &kp B           &kp K      &kp M            &kp COMMA        &kp DOT          &kp FSLH  &kp SQT
-                                          &lt 3 MINUS     &lt 2 GRAVE  &lt 1 ESCAPE    &kp SPACE  &kp RIGHT_SHIFT  &mo 5
+&lt 4 ESC      &kp Q  &kp W                    &kp F                &kp P             &kp G           &kp J      &kp L              &kp U                  &kp Y                  &kp SEMI  &kp BSPC
+&mt LCTRL TAB  &kp A  &left_mt LEFT_COMMAND R  &left_mt LEFT_ALT S  &left_mt LCTRL T  &kp D           &kp H      &right_mt RCTRL N  &right_mt RIGHT_ALT E  &right_mt RIGHT_GUI I  &kp O     &kp RET
+&kp LSHFT      &kp Z  &kp X                    &kp C                &kp V             &kp B           &kp K      &kp M              &kp COMMA              &kp DOT                &kp FSLH  &kp SQT
+                                               &lt 3 MINUS          &lt 2 GRAVE       &lt 1 ESCAPE    &kp SPACE  &kp RIGHT_SHIFT    &mo 5
             >;
         };
 
